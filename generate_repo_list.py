@@ -12,7 +12,7 @@ import requests
 # GitHub usernames and types (user or org)
 accounts = [
     ("users", "abs2525", "👨‍💻 Personal Projects"),
-    ("orgs", "zebrappsai", "🏢 Zebrapps.ai"),
+    ("users", "zebrappsai", "🏢 Zebrapps.ai"),
     ("users", "avimentorysai", "🚀 Mentorys.ai")
 ]
 
@@ -21,7 +21,7 @@ output_file = "generated_README.md"
 
 # GitHub API base
 base_url = "https://api.github.com"
-print("Writing to generated_README.md in current folder...")
+
 # Create the markdown content
 with open(output_file, "w", encoding="utf-8") as f:
     f.write("# 🚀 ABS-MetaRepo\n\n")
